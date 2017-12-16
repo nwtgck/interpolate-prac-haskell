@@ -4,4 +4,4 @@
 # IntelliJ
 /.idea/
 /out/
-
+/cabal.config

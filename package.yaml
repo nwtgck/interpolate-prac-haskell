@@ -35,6 +35,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - interpolate-prac
+    - interpolate
 
 tests:
   interpolate-prac-test:

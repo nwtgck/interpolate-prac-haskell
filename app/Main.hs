@@ -1,6 +1,10 @@
+{-# LANGUAGE QuasiQuotes #-}
+
 module Main where
 
-import Lib
+import Data.String.Interpolate
 
 main :: IO ()
-main = someFunc
+main = do
+  let name = "Marvin"
+  putStrLn [i|name: #{name}|]
