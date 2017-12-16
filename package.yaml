@@ -22,9 +22,6 @@ description:         Please see the README on Github at <https://github.com/nwtg
 dependencies:
 - base >= 4.7 && < 5
 
-library:
-  source-dirs: src
-
 executables:
   interpolate-prac-exe:
     main:                Main.hs
@@ -34,7 +31,6 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - interpolate-prac
     - interpolate
 
 tests:
@@ -45,5 +41,4 @@ tests:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    dependencies:
-    - interpolate-prac
+    dependencies: []
