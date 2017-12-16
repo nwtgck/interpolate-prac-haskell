@@ -1,4 +1,4 @@
-# Practice of interpolate libarary
+# Practice of interpolate library
 
 This is a practice of [sol/interpolate](https://github.com/sol/interpolate).
 
