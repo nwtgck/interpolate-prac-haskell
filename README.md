@@ -1,4 +1,5 @@
 # Practice of interpolate library
+[![Build Status](https://travis-ci.org/nwtgck/interpolate-prac-haskell.svg?branch=master)](https://travis-ci.org/nwtgck/interpolate-prac-haskell)
 
 This is a practice of [sol/interpolate](https://github.com/sol/interpolate).
 
